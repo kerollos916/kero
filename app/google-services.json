@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1086897220056",
+    "firebase_url": "https://kerols966-f108c.firebaseio.com",
+    "project_id": "kerols966-f108c",
+    "storage_bucket": "kerols966-f108c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086897220056:android:a66a700f0f3baedd9f6aad",
+        "android_client_info": {
+          "package_name": "com.example.theroom0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086897220056-kccbcs28t6emd9n719ci0c65j9h4kdus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theroom0",
+            "certificate_hash": "dfab0cca2d5bec24a8bd778f524e892149ae1177"
+          }
+        },
+        {
+          "client_id": "1086897220056-pbkjv96ij7at2m7g6dcin2tg3nmeri7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCnksINpd1UnytXK6Q9Eqkw-K69PvuV1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086897220056-pbkjv96ij7at2m7g6dcin2tg3nmeri7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

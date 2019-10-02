@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roms2"
+    android:background="@drawable/the"
+    android:orientation="vertical"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+
+        android:text="انت متصالح مع نفسك وهل انت قوي ام ضعيف ؟"
+        android:textColor="#ffffff"
+
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bad"
+            android:text=" اشعر احيانا بالندم لاكن اقول ساعوض الخسائر "
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/bun_1"
+
+
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rand"
+            android:text=" لا اشعر بالندم واشعر دائما بالقوه  "
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/bun_2"
+
+
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ex"
+            android:text="الضعف ليس عيب والانسان ليس دائما مصيب "
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/bun_3"
+
+
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="good"
+            android:text="لا اخطئ  لاني اعرف مقدار حدودي وضعفي "
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/bun_4"
+
+
+            ></Button>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text= "انت في الغرفه الثانيه للمتاهة  "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        ></TextView>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-2651492113349554/3235544996">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

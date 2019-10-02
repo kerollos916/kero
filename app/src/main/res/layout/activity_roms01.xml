@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roms01"
+    android:background="@drawable/roms0"
+    android:orientation="vertical"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+              <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                  android:layout_margin="20dp"
+                  android:textSize="20sp"
+
+        android:text="هل شعرت في لحظةٍ ما بأن اليوم الذي تعيشه تكررت أحداثه بالفعل 100 مرة مسبقاً؟"
+        android:textColor="#ffffff"
+
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bun_1"
+            android:layout_width="match_parent"
+            android:onClick="ex"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="نعم في بعض الاحيان اشعر بزالك "
+            android:textSize="20sp"
+
+
+            ></Button>
+
+        <Button
+            android:id="@+id/bun_2"
+            android:layout_width="match_parent"
+            android:onClick="rand"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text=" مستحيل الانسان يعيش مره واحده "
+            android:textSize="20sp"
+
+
+            ></Button>
+
+        <Button
+            android:id="@+id/bun_3"
+            android:layout_width="match_parent"
+            android:onClick="good"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="لا اعلم لم يخطر زالك في بالي  "
+            android:textSize="20sp"
+
+
+            ></Button>
+
+        <Button
+            android:id="@+id/bun_4"
+            android:layout_width="match_parent"
+            android:onClick="bad"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="ممكن وانا اعيد نفس الاخطاء "
+            android:textSize="20sp"
+
+
+            ></Button>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="انت في الغرفه الاوله للانفاق  "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"></TextView>
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-2651492113349554/3235544996">
+            </com.google.android.gms.ads.AdView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
